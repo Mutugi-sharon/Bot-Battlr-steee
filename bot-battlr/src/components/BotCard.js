@@ -6,6 +6,10 @@ const BotCard = ({ bot, handleClick, handleDischarge }) => {
       <img src={bot.avatar_url} alt={bot.name} className="bot-avatar" />
       <h3>{bot.name}</h3>
       <p>{bot.description}</p>
+      <p><strong>Class:</strong> {bot.bot_class}</p>
+      <p><strong>Health:</strong> {bot.health}</p>
+      <p><strong>Damage:</strong> {bot.damage}</p>
+      <p><strong>Armor:</strong> {bot.armor}</p>
       <button onClick={(e) => { e.stopPropagation(); handleDischarge(); }}>Discharge</button>
     </div>
   );

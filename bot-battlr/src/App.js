@@ -1,8 +1,7 @@
-// App.js
 import React, { useState } from 'react';
 import BotCollection from './components/BotCollection';
 import YourBotArmy from './components/YourBotArmy';
-import './styles.css'; 
+import './styles.css'; // Import the CSS file
 
 const App = () => {
   const [army, setArmy] = useState([]);

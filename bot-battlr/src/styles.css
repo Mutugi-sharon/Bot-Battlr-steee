@@ -1,17 +1,18 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #000000;
   margin: 0;
   padding: 0;
 }
 
 h1 {
   text-align: center;
-  color: #333;
+  color: #F15025;
 }
 
 h2 {
-  color: #555;
+  color: #F15025;
+  text-align: center
 }
 
 .bot-collection, .bot-army {
@@ -23,13 +24,13 @@ h2 {
 }
 
 .bot-card {
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #5cdd81;
+  border: 2px solid rgba(194, 41, 92, 0.8);
   border-radius: 8px;
   padding: 20px;
   width: 200px;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 5px rgba(194, 41, 92, 0.8);
   transition: transform 0.2s;
 }
 
@@ -50,7 +51,7 @@ h2 {
 }
 
 .bot-card p {
-  color: #777;
+  color: #E6E8E6;
 }
 
 .bot-card button {
@@ -66,4 +67,3 @@ h2 {
 .bot-card button:hover {
   background-color: #ff1a1a;
 }
-
