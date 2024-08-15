@@ -1,15 +1,16 @@
 # Bot Battlr
+
 Welcome to Bot Battlr, the one and only spot in the known universe where you can custom build your own Bot Army! This application allows users to browse through a list of robots, view a robot’s details, and enlist a bot into their army.
 
 ## Table of Contents
 
-* Project Setup
-* Core Deliverables
-* Components
-* Styling
-* Usage
-* Contributing
-* License
+- Project Setup
+- Core Deliverables
+- Components
+- Styling
+- Usage
+- Contributing
+- License
 
 ## Project Setup
 
@@ -20,7 +21,7 @@ Welcome to Bot Battlr, the one and only spot in the known universe where you can
 5. Run the following command to get the backend started:
    ```sh
    json-server --watch db.json
-
+   ```
 
 http://localhost:8001/bots
 Core Deliverables
@@ -42,9 +43,7 @@ App
 Manages the state of the bot army and handles adding/removing bots.
 Styling
 
-
 Usage
-
 
 Clone the repository:
 git clone <repository-url>
@@ -59,11 +58,9 @@ Start the React application:
 npm start
 
 ### Contributing
+
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
 ## License
- This project is licensed under the MIT License.
 
-
-
-
+This project is licensed under the MIT License.
